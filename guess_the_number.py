@@ -11,7 +11,6 @@ print(menu)
 
 
 attempts = 0
-count_of_attempts = 0
 num_to_guess = randint(1,101)
 
 # Ciclo para evaluar el numero ingresado por el usuario
