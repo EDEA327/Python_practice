@@ -162,6 +162,7 @@ def run():
         elif chosen_option == 2:
             category = choose_category(origin)
             create_recipe(category)
+            num_recipes = num_recipes + 1
         elif chosen_option == 3:
             create_category(origin)
         elif chosen_option == 4:
@@ -169,12 +170,15 @@ def run():
             delete_recipe(category)
         elif chosen_option == 5:
             delete_category(origin)
-        else:
+        elif chosen_option == 6:
             keep_running = False
+            break
         wish = input("Want to continue? (y/n): ")
         if wish == "y":
+            clean_screen(0.1)
             keep_running = True
         elif wish == "n":
+            clean_screen(0.1)
             keep_running = False
         else:
             print("OK, lets play again HAHAHA!")
