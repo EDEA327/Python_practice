@@ -1,9 +1,12 @@
 """
-    This program works as a shift assigner for a pharmacy that sells cosmetics, medicines and perfumes.
+    This program works as a shift assigner for a pharmacy
+    that sells cosmetics, medicines and perfumes.
 """
+
 # imports
-import functions
 from os import system
+import functions
+
 # Global variables
 
 MENU = """Welcome to your favorite pharmacy
